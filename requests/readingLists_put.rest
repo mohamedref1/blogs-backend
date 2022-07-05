@@ -1,0 +1,24 @@
+PUT http://localhost:3000/api/readingLists/1000
+Content-Type: application/json
+
+{
+}
+
+###
+
+PUT http://localhost:3000/api/readingLists/1000
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VybmFtZTFAZ21haWwuY29tIiwibmFtZSI6Im5hbWUxIiwiaWF0IjoxNjU2OTYwNTY5LCJleHAiOjE2NTcyMTk3Njl9.ZHroeurXcVj7JaSW5Goa0K9q1f640clganKn0vZDlT4
+
+{
+  
+}
+
+###
+
+PUT http://localhost:3000/api/readingLists/1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1c2VybmFtZTJAZ21haWwuY29tIiwibmFtZSI6Im5hbWUyIiwiaWF0IjoxNjU2OTYzMTIwLCJleHAiOjE2NTcyMjIzMjB9.i8I79wTXfrqAn-OgUsMZXT9sN6k6r_-qGLU-h0MAcEw
+
+{
+}

@@ -1,0 +1,26 @@
+POST http://localhost:3000/api/readingLists
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+POST http://localhost:3000/api/readingLists
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VybmFtZTFAZ21haWwuY29tIiwibmFtZSI6Im5hbWUxIiwiaWF0IjoxNjU2OTYwNTY5LCJleHAiOjE2NTcyMTk3Njl9.ZHroeurXcVj7JaSW5Goa0K9q1f640clganKn0vZDlT4
+
+{
+
+}
+
+###
+
+POST http://localhost:3000/api/readingLists
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VybmFtZTFAZ21haWwuY29tIiwibmFtZSI6Im5hbWUxIiwiaWF0IjoxNjU2OTYwNTY5LCJleHAiOjE2NTcyMTk3Njl9.ZHroeurXcVj7JaSW5Goa0K9q1f640clganKn0vZDlT4
+
+{
+  "blogId": 6
+}

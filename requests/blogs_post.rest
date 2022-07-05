@@ -1,0 +1,66 @@
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+
+{
+  "title": "title1",
+  "url": "http://www.author1.com"
+}
+
+###
+
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+
+{
+  "author": "author2",
+  "title": "title2",
+  "url": "http://www.author2.com"
+}
+
+###
+
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+
+{
+  "author": "author3",
+  "title": "title3",
+  "url": "http://www.author3.com",
+  "likes": 3
+}
+
+###
+
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+
+{
+  "id": 4,
+  "author": "author4",
+  "title": "title4",
+  "url": "http://www.author4.com",
+  "likes": 4
+}
+
+###
+
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VybmFtZTFAZ21haWwuY29tIiwibmFtZSI6Im5hbWUxIiwiaWF0IjoxNjU2OTg1MTQ0fQ.Ti9jg9vIYiihpI9DLux2KtYbjwfDVfKaAD-7absC8DQ
+
+{
+  "author": "author11",
+  "title": "title11",
+  "url": "http://www.author1.com",
+  "likes": 121,
+  "year": 2018
+}

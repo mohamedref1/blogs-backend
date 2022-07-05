@@ -1,0 +1,45 @@
+PUT http://localhost:3000/api/blogs/1
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+PUT http://localhost:3000/api/blogs/abcd
+Content-Type: application/json
+
+{
+  
+}
+
+###
+
+PUT http://localhost:3000/api/blogs/1
+Content-Type: application/json
+
+{
+  "likes": "one"
+}
+
+###
+
+PUT http://localhost:3000/api/blogs/1000
+Content-Type: application/json
+
+{
+  "likes": "1"
+}
+
+###
+
+PUT http://localhost:3000/api/blogs/15
+Content-Type: application/json
+
+{
+  "likes": 1
+}
+
+###
+

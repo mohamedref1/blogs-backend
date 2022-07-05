@@ -1,8 +1,12 @@
 {
-  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSaveMode": "file"
+  },
   "files.exclude": {
     "**/.git": false,
     "**/.svn": true,

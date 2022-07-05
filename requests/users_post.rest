@@ -1,0 +1,37 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "username1"
+}
+
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "username1",
+  "name": "name1"
+
+}
+
+###
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "username1@gmail.com",
+  "name": "name1",
+  "password": "password1"
+}
